@@ -1,8 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  home.username = "player205";
-  home.homeDirectory = "/home/player205";
   home.stateVersion = "22.05";
   nixpkgs.config = { allowUnfree = true; };
 
