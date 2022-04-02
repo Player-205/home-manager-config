@@ -8,6 +8,7 @@
     jgmenu
     idris2
     opam
+    node
     firefox
     discord
   ];
