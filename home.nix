@@ -5,12 +5,6 @@
   nixpkgs.config = { allowUnfree = true; };
 
   home.packages = with pkgs; [
-    jgmenu
-    idris2
-    opam
-    node
-    firefox
-    discord
   ];
 
   programs.home-manager.enable = true;
